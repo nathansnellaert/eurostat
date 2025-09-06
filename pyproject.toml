@@ -1,0 +1,16 @@
+[project]
+name = "eurostat-connector"
+version = "0.1.0"
+description = "Eurostat data connector"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.24.0",
+    "pyarrow>=14.0.0",
+    "backoff",
+    "boto3",
+    "ratelimit",
+    "duckdb",
+    "tenacity",
+    "requests",
+    "pyiceberg"
+]
