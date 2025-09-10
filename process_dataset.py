@@ -33,7 +33,7 @@ def main():
     
     # Upload the data
     print(f"Uploading {data.num_rows:,} rows...")
-    upload_data(data, args.dataset_code)
+    upload_data(data, f"eurostat_{args.dataset_code}")
     
     # Save state
     save_state(args.dataset_code, {

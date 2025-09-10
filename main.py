@@ -53,7 +53,7 @@ def main():
     # Process catalogue to get list of all datasets
     print("Fetching Eurostat catalogue...")
     catalogue_data = process_catalogue()
-    upload_data(catalogue_data, "catalogue")
+    upload_data(catalogue_data, "eurostat_catalogue")
     save_state("catalogue", {
         "last_updated": datetime.now().isoformat(),
         "dataset_count": len(catalogue_data)
