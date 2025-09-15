@@ -12,5 +12,6 @@ dependencies = [
     "duckdb",
     "tenacity",
     "requests",
-    "pyiceberg"
+    "pyiceberg",
+    "sqlalchemy>=2.0.43",
 ]
